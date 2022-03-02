@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-HK" ng-app="myApp">
+    <head>
+        <title>格蘭斯戰記 - 登入介面</title>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Cache-Control" content="no-cache, max-age=0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="Colands Tang, 逍遙的安少">
+        
+
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- MetisMenu CSS -->
+        <link href="css/metisMenu.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="css/startmin.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- bot CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <link href="css\styleBot.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4">
+                    <div class="login-panel panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title" style="text-align:center;">格蘭斯戰記 - 登入介面</h4>
+                        </div>
+                        <div class="panel-body">
+                                <form role="form" method="post" action="loginprocess.php">
+                                <fieldset>
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="登入電郵" name="user_email" type="email" required="true" autofocus>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="密碼" name="user_password" type="password" value="" required="true">
+                                    </div>
+                                    <button type="submit" class="btn btn-lg btn-success btn-block" style="border-radius:100px; background-color:#0080ff; border-color:#0080ff;">登入</button>
+                                    <!-- <a href="join.html" class="btn btn-lg btn-danger btn-block" style="border-radius:100px; background-color:#7de51a; border-color:#7de51a;">登記</a> -->
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- jQuery -->
+        <script src="js/jquery.min.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Metis Menu Plugin JavaScript -->
+        <script src="js/metisMenu.min.js"></script>
+
+        <!-- Custom Theme JavaScript -->
+        <script src="js/startmin.js"></script>
+
+        <!--angular-->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular.min.js"></script>
+        <script src="js/myApp.js"></script>
+
+        <div style="color:black; text-align:center;">
+            <copyright></copyright>
+        </div>
+
+    </body>
+</html>
